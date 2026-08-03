@@ -297,3 +297,20 @@ worth working with.
 5. Collapsed this project into the Clarity Clicks client model. He rejected it correctly.
 6. Over-alarmed about the site not being indexed — it was one day old with zero backlinks.
    That's the null result, not a problem.
+
+---
+
+## 8. CREDENTIALS
+
+Not stored here — this repository is **public**, and GitHub secret scanning auto-revokes
+personal access tokens pushed to public repos.
+
+Wellew holds the live DataForSEO and GitHub credentials in the downloadable copy of this
+handoff (`HANDOFF-locksmith-boksburg.md`). He supplies them at the start of each session.
+
+Setup notes that are safe to record:
+- DataForSEO account `hello@saremotejobs.co.za`, verified, HTTP Basic auth.
+- GitHub PAT must be **fine-grained**, Repository access = "Only select repositories"
+  (NOT "Public repositories", which is read-only), Repository permissions → Contents →
+  **Read and write**.
+- Pipe curl output to python; `-o` file writes fail intermittently in the container.
