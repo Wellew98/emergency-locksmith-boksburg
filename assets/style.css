@@ -203,7 +203,7 @@ tr:last-child td { border-bottom: 0; }
 /* ---------- footer ---------- */
 .site-footer { background: var(--bg-dark); color: rgba(255,255,255,.8); padding: 56px 0 28px; }
 .site-footer h4 { color: #fff; margin-bottom: 14px; font-family: var(--font-body); font-size: 1rem; letter-spacing: .02em; }
-.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 36px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 36px; }
 @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; } }
 @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
 .site-footer ul { list-style: none; }
@@ -215,3 +215,5 @@ tr:last-child td { border-bottom: 0; }
 
 /* phone link — class is a stable hook for WhatConverts dynamic number insertion */
 .wc-phone { font-weight: 700; }
+
+.nav-wa { color: #25D366; }
