@@ -217,3 +217,5 @@ tr:last-child td { border-bottom: 0; }
 .wc-phone { font-weight: 700; }
 
 .nav-wa { color: #25D366; }
+
+.site-footer .footer-h { font-size: 1rem; font-weight: 600; margin: 0 0 12px; }
