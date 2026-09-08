@@ -286,7 +286,7 @@ tr:last-child td { border-bottom: 0; }
   font-family: var(--font-body); font-weight: 800;
   font-size: .7rem; letter-spacing: .2em; text-transform: uppercase;
 }
-.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 34px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 34px; }
 @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 26px; } }
 @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
 .site-footer ul { list-style: none; }
